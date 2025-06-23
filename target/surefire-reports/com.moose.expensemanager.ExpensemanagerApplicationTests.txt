@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.moose.expensemanager.ExpensemanagerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.917 s - in com.moose.expensemanager.ExpensemanagerApplicationTests
