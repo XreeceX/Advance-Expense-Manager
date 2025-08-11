@@ -7,8 +7,8 @@ import hashlib
 from contextlib import contextmanager
 
 st.set_page_config(page_title="Advance Expense Manager", page_icon="💰", layout="wide")
-
-DB_PATH = "data.db"
+import os
+DB_PATH = os.getenv("DB_PATH", "data.db")
 
 @contextmanager
 def get_conn():
